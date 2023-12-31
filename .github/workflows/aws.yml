@@ -32,7 +32,7 @@ on:
       - "master"
 
 env:
-  AWS_REGION: us-east-3                  # set this to your preferred AWS region, e.g. us-west-1
+  AWS_REGION: us-east-2                  # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: my-ecr-repo          # set this to your Amazon ECR repository name
   ECS_SERVICE: mynodeapp                # set this to your Amazon ECS service name
   ECS_CLUSTER: mytestecs                 # set this to your Amazon ECS cluster name
